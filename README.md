@@ -13,7 +13,9 @@ This data includes the name, IMDB ratings and the genres of the movies (a quick
 glance at the file will give you an idea about the structure of the data).
 
 Your program should print all the genres to the terminal (in alpahabetical 
-order, no repetitions) along with the average rating of movies.
+order, no repetitions) along with the average rating of movies. For example,
+_Inception_ and _The Pink Panther_ are the two films belonging to the adventure
+genre, so the average rating for adventure would be (8.8+5.3)/2 = 7.05.
 
 A part of the expected output is shown here:
 

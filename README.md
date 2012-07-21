@@ -3,14 +3,14 @@
 
 This repo was created as a way to apply for a programming job at WowMakers. To
 apply, fork this repo and send in a pull request with the solution for the
-problem. We will get in touch with you via the email mentioned in your github 
-account.
+problem. We will get in touch with you via the email provided in your github 
+profile.
 
 ## The problem
 
 In `data/movies.json`, you will find the details of some movies in JSON format.
 This data includes the name, IMDB ratings and the genres of the movies (a quick
-glance at the file will give you an idea about the struct of the data).
+glance at the file will give you an idea about the structure of the data).
 
 Your program should print all the genres to the terminal (in alpahabetical 
 order, no repetitions) along with the average rating of movies.
@@ -30,4 +30,4 @@ Ruby, but you could solve this in any language of your choice.
 
 Once you've written the program, send a pull request. We'll not be merging the
 pull request, but will contact you on the email address provided in your Github
-account.
+profile. It might take us a day or two to get in touch; please be patient.

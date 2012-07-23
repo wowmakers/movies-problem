@@ -2,7 +2,7 @@ require 'json'
 
 movies = JSON.parse IO.read 'data/movies.json'
 ratings={}
-movies["movies"].each do |movie|
+movies["movies"].each do |movie| #groups up ratings  into hash
 	movie['genres'].each do |genre|
 		unless ratings[genre.to_sym].nil?
 			ratings[genre.to_sym]['net_rating']+=movie["rating"].to_f
@@ -14,7 +14,7 @@ movies["movies"].each do |movie|
 		end	
 	end
 end
-ratings.each {|genre,rating| ratings[genre] = rating['net_rating']/rating['count']}
+ratings.each {|genre,rating| ratings[genre] = rating['net_rating']/rating['count']} 
 Hash[ratings.sort.each {|genre,rating| puts "%0.2f #{genre.to_s}" % rating}] #nasty, but still simple
 			
 

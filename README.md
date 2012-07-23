@@ -1,7 +1,7 @@
 ----------------------------------------
 #WOW Makers Recruitment Problem Solution
 
-          -by Tojo Cherian(jesly.varghese@gmail.com)
+          -by Tojo Cherian(tojocherian@gmail.com)
 
 This is solution for problem given by wowmakers as part of recruitment in programming
 

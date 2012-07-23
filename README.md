@@ -7,8 +7,8 @@ This is solution for problem given by wowmakers as part of recruitment in progra
 
 From a given set of imdb data as JSON it calculates average rating of each genre
 Required: ruby >= 1.9.2
-`$ bundle install
-$bundle exec imdb.rb`
+`$ bundle install`
+`$bundle exec imdb.rb`
 
 ## Movies Problem
 

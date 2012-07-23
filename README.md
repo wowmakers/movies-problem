@@ -1,4 +1,3 @@
-
 ## Movies Problem
 
 This repo was created as a way to apply for a programming job at WowMakers. To
@@ -25,7 +24,7 @@ A part of the expected output is shown here:
     8.50 Mystery
     ...
 
-`sample.rb` contains the outline for this programe to help you get started in
+`sample.rb` contains the outline for this program to help you get started in
 Ruby, but you could solve this in any language of your choice.
 
 ## Sending the pull request

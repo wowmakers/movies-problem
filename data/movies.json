@@ -1,0 +1,54 @@
+{
+  "movies": [
+    {
+      "name": "Inception",
+      "rating": 8.8,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ]
+    },
+    {
+      "name": "Godfather",
+      "rating": 9.2,
+      "genres": [
+        "Crime",
+        "Drama"
+      ]
+    },
+    {
+      "name": "The Pink Panther",
+      "rating": 5.3,
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Crime"
+      ]
+    },
+    {
+      "name": "12 Angry Men",
+      "rating": 8.9,
+      "genres": [
+        "Drama"
+      ]
+    },
+    {
+      "name": "Citizen Kane",
+      "rating": 8.5,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ]
+    },
+    {
+      "name": "Remember the Titans",
+      "rating": 7.6,
+      "genres": [
+        "Biography",
+        "Drama",
+        "Sport"
+      ]
+    }
+  ]
+}

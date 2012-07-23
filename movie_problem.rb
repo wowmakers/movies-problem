@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
 require 'json'
-require 'set'
 
 class MovieRating
     def initialize datafile

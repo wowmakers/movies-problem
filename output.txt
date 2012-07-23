@@ -1,0 +1,9 @@
+8.80 Action
+7.05 Adventure
+7.60 Biography
+5.30 Comedy
+7.25 Crime
+8.55 Drama
+8.50 Mystery
+8.80 Sci-Fi
+7.60 Sport

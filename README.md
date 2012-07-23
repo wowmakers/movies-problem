@@ -12,6 +12,7 @@ Required: ruby >= 1.9.2
 
 
 `$ bundle install`
+
 `$bundle exec imdb.rb`
 
 ## Movies Problem

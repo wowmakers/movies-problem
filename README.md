@@ -1,9 +1,9 @@
 ## Movies Problem
 
-This repo was created as a way to apply for a programming job at WowMakers. To
-apply, fork this repo and send in a pull request with the solution for the
-problem. We will get in touch with you via the email provided in your github 
-profile.
+This repo was created as a way to apply for [this programming job](http://jobs.hasgeek.com/view/8xfri)
+at WowMakers. To apply, fork this repo and send in a pull request with the 
+solution for the problem. We will get in touch with you via the email provided 
+in your github profile.
 
 ## The problem
 

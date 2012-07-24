@@ -8,11 +8,16 @@ require 'json' # `gem install json` if you don't already have json gem installed
 raw_json = IO.read('data/movies.json')
 
 # Parse the JSON data to get movie details
+movies = JSON.parse(raw_json)['movies']
 
-genres = ['Thriller']   # Collect the genre names here.
+# Collect the genre names here.
+genres = movies.collect { |m| m['genres'] }.flatten.sort.uniq
 
 # Print the ratings and genre names
 genres.each do |genre|
-  avg_rating = 8    # get the average rating for all the films of the genre
+  # get the average rating for all the films of the genre
+  ratings = movies.collect { |m| m['rating'] if m['genres'].include? genre }
+  ratings.delete nil
+  avg_rating = ratings.inject { |sum, rating| sum + rating } / ratings.count
   puts "%0.2f #{genre}" % avg_rating
 end
